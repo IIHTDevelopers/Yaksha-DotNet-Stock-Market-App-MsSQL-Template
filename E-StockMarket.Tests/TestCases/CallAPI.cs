@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace E_StockMarket.Tests.TestCases
 {
-     public class CallAPI
+    public class CallAPI
     {
         public static string UniqueGuid = "18f69543-da90-412c-8a01-4825f31340bb";
         public static async Task<string> saveTestResult(string testName, string status, string type)
